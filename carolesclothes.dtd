@@ -1,0 +1,11 @@
+<!ELEMENT CarolesClothes (Clothes)>
+<!ELEMENT Clothes (ClothingItem+)>
+<!ELEMENT ClothingItem (Description, Material, Colors, Media)>
+<!ATTLIST ClothingItem name CDATA #REQUIRED>
+<!ATTLIST ClothingItem price CDATA #REQUIRED>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Material (#PCDATA)>
+<!ELEMENT Colors (#PCDATA)>
+<!ELEMENT Media (Gif, Audio)>
+<!ELEMENT Gif (#PCDATA)>
+<!ELEMENT Audio (#PCDATA)>

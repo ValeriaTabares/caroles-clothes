@@ -1,0 +1,79 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Main Container */
+Clothes {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    background-color: #fbeaf2;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Product Cards */
+ClothingItem {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffccdd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    gap: .5em;
+}
+
+/* Title */
+ClothingItem::before {
+    content: attr(name);
+    font-size: 22px;
+    font-weight: bold;
+    color: #cc0066;
+}
+
+/* Price */
+ClothingItem::after {
+    content: "Price: $" attr(price);
+    font-weight: bold;
+    color: #cc0066;
+    margin-top: 5px;
+}
+
+/* Description */
+Description {
+    color: #660033;
+    margin-top: 5px;
+}
+
+/* Add "Material:" before the Material value */
+Material::before {
+    content: "Material: ";
+    font-weight: bold;
+    color: #99004d;
+}
+
+/* Colors */
+Colors::before {
+    content: "Available Colors: ";
+    font-weight: bold;
+    color: #99004d;
+}
+
+/* Material & Colors */
+Material, Colors {
+    font-size: 16px;
+    color: #444;
+    margin-top: 5px;
+}
+
+/* Media */
+Media {
+    margin-top: 1em;
+    border: 1px solid #fff4fa;
+    height: 5em;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}

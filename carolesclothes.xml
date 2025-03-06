@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles-clothes.css"?>
+<!DOCTYPE CarolesClothes SYSTEM "carolesclothes.dtd">
+<CarolesClothes>
+    <Clothes>
+        <ClothingItem name="Shift dress" price="45.00">
+            <Description>Simple shift, available in two colours. 100% cotton</Description>
+            <Material>Cotton</Material>
+            <Colors>Two</Colors>
+            <Media>
+                <Gif>fabric1.gif</Gif>
+                <Audio>fabric1-sound.mp3</Audio>
+            </Media>
+        </ClothingItem>
+        <ClothingItem name="Wraparound skirt" price="30.00">
+            <Description>Simple wraparound skirt, available in two colours. 100% cotton</Description>
+            <Material>Cotton</Material>
+            <Colors>Two</Colors>
+            <Media>
+                <Gif>fabric2.gif</Gif>
+                <Audio>fabric2-sound.mp3</Audio>
+            </Media>
+        </ClothingItem>
+        <ClothingItem name="Cardigan" price="70.00">
+            <Description>Winter cardigan, available in two colours. 100% wool.</Description>
+            <Material>Wool</Material>
+            <Colors>Two</Colors>
+            <Media>
+                <Gif>fabric3.gif</Gif>
+                <Audio>fabric3-sound.mp3</Audio>
+            </Media>
+        </ClothingItem>
+        <ClothingItem name="Dress hat" price="20.00">
+            <Description>Stylish dress hat, available in two colours. 100% linen.</Description>
+            <Material>Linen</Material>
+            <Colors>Two</Colors>
+            <Media>
+                <Gif>fabric4.gif</Gif>
+                <Audio>fabric4-sound.mp3</Audio>
+            </Media>
+        </ClothingItem>
+    </Clothes>
+</CarolesClothes>
